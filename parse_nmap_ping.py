@@ -138,8 +138,12 @@ class NmapPingParser:
 
         live_ips = [host['ip'] for host in self.hosts if host['status'] == 'up' and host['ip']]
 
-        # Remove extension if present
-        base = output_file_base.rsplit('.', 1)[0]
+        # Remove known extensions if present (but preserve dots in filenames like IPs)
+        base = output_file_base
+        for ext in ['.csv', '.json', '.txt']:
+            if base.endswith(ext):
+                base = base[:-len(ext)]
+                break
 
         # Create inline version (all IPs in one line)
         inline_file = f"{base}-inline.txt"
@@ -238,8 +242,12 @@ Examples:
     elif args.format == 'txt':
         nmap_parser.to_ip_list(args.output)
     elif args.format == 'all':
-        # Remove extension if provided
-        base_name = args.output.rsplit('.', 1)[0]
+        # Remove known extensions if provided (but preserve dots in filenames like IPs)
+        base_name = args.output
+        for ext in ['.csv', '.json', '.txt']:
+            if base_name.endswith(ext):
+                base_name = base_name[:-len(ext)]
+                break
         nmap_parser.to_csv(f"{base_name}.csv")
         nmap_parser.to_json(f"{base_name}.json")
         nmap_parser.to_ip_list(base_name)
