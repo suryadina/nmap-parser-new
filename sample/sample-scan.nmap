@@ -1,0 +1,50 @@
+# Nmap 7.80 scan initiated Sat Oct 18 10:00:00 2025 as: nmap -sn 10.247.254.0/24
+Nmap scan report for 10.247.254.4 [host down]
+Nmap scan report for 10.247.254.5 [host down]
+Nmap scan report for 10.247.254.6 [host down]
+Nmap scan report for 10.247.254.7 [host down]
+Nmap scan report for 10.247.254.8 [host down]
+Nmap scan report for 10.247.254.9 [host down]
+Nmap scan report for 10.247.254.10 [host down]
+Nmap scan report for 10.247.254.11
+Host is up (0.0010s latency).
+Nmap scan report for 10.247.254.12
+Host is up (0.0060s latency).
+Nmap scan report for 10.247.254.13
+Host is up (0.0040s latency).
+Nmap scan report for 10.247.254.14
+Host is up (0.0030s latency).
+Nmap scan report for 10.247.254.15
+Host is up (0.0014s latency).
+Nmap scan report for 10.247.254.16 [host down]
+Nmap scan report for 10.247.254.17 [host down]
+Nmap scan report for 10.247.254.18 [host down]
+Nmap scan report for 10.247.254.19 [host down]
+Nmap scan report for 10.247.254.20 [host down]
+Nmap scan report for 10.247.254.21 [host down]
+Nmap scan report for 10.247.254.192 [host down]
+Nmap scan report for 10.247.254.193 [host down]
+Nmap scan report for 10.247.254.194 [host down]
+Nmap scan report for 10.247.254.195
+Host is up (0.0029s latency).
+MAC Address: 00:50:56:8F:75:FD (VMware)
+Nmap scan report for 10.247.254.196 [host down]
+Nmap scan report for 10.247.254.197 [host down]
+Nmap scan report for 10.247.254.198 [host down]
+Nmap scan report for 10.247.254.199 [host down]
+Nmap scan report for 10.247.254.200 [host down]
+Nmap scan report for 10.247.5.5 [host down]
+Nmap scan report for 10.247.5.6 [host down]
+Nmap scan report for 10.247.5.7 [host down]
+Nmap scan report for 10.247.5.8 [host down]
+Nmap scan report for 10.247.5.9 [host down]
+Nmap scan report for vm-server-01.example.local (10.247.5.10)
+Host is up (0.0020s latency).
+Nmap scan report for 10.247.5.11
+Host is up (0.0020s latency).
+Nmap scan report for 10.247.5.12 [host down]
+Nmap scan report for 10.247.5.13 [host down]
+Nmap scan report for 10.247.5.14 [host down]
+Nmap scan report for 10.247.5.15 [host down]
+Nmap scan report for 10.247.5.16 [host down]
+# Nmap done at Sat Oct 18 10:01:00 2025 -- 65536 IP addresses (8 hosts up) scanned in 60.00 seconds
